@@ -1,0 +1,69 @@
+<svg width="1200" height="380" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Mike Fayssal — Computer Engineering</title>
+  <desc id="desc">Dark navy circuit-board banner with cyan and purple accents and a stylized microchip.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1020"/>
+      <stop offset="0.54" stop-color="#101A31"/>
+      <stop offset="1" stop-color="#1D1539"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22E1FF"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#13D5FF"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#3A4A67" stroke-width="0.7" opacity="0.24"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="380" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="380" rx="24" fill="url(#grid)"/>
+  <path d="M0 0H1200V380H0Z" fill="none" stroke="#374766" stroke-width="2" opacity=".7"/>
+  <path d="M0 330H470L505 295H655" stroke="#1FE1FF" stroke-width="2" fill="none" opacity=".24"/>
+  <path d="M0 346H510L552 302H688" stroke="#8B5CF6" stroke-width="2" fill="none" opacity=".28"/>
+  <path d="M1200 70H1042L1010 102H938" stroke="#22E1FF" stroke-width="2" fill="none" opacity=".38"/>
+  <path d="M1200 88H1090L1058 120H990" stroke="#A78BFA" stroke-width="2" fill="none" opacity=".40"/>
+  <circle cx="657" cy="295" r="5" fill="#22E1FF" opacity=".65"/>
+  <circle cx="990" cy="120" r="5" fill="#A78BFA" opacity=".65"/>
+
+  <rect x="58" y="41" width="208" height="30" rx="15" fill="#122A3C" stroke="#1FB9D4" stroke-opacity=".55"/>
+  <circle cx="77" cy="56" r="4" fill="#20E6B4" filter="url(#softGlow)"/>
+  <text x="92" y="61" fill="#BBEAF1" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" letter-spacing="1.8">ENGINEER IN PROGRESS</text>
+
+  <text x="56" y="164" fill="#F0F6FF" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="75" letter-spacing="-2">MIKE FAYSSAL</text>
+  <rect x="60" y="182" width="404" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="58" y="230" fill="#A7BCD6" font-family="Arial, Helvetica, sans-serif" font-weight="600" font-size="25" letter-spacing="3">COMPUTER ENGINEERING · NJIT</text>
+  <text x="59" y="292" fill="#F2F4FF" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="24" letter-spacing="1.4">BUILD SYSTEMS. BREAK LIMITS.</text>
+  <text x="59" y="320" fill="#81A2BB" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="1.4">HARDWARE × SOFTWARE   //   ALWAYS IMPROVING</text>
+
+  <!-- Circuit-board motif -->
+  <circle cx="997" cy="196" r="140" stroke="#A78BFA" stroke-opacity=".12" stroke-width="1.5" fill="none"/>
+  <circle cx="997" cy="196" r="117" stroke="#25D8FC" stroke-opacity=".19" stroke-width="1.5" fill="none"/>
+  <circle cx="997" cy="196" r="97" stroke="#A78BFA" stroke-opacity=".21" stroke-width="2" fill="none" stroke-dasharray="6 9"/>
+  <path d="M891 196H851L827 172H786 M1103 196H1146L1165 178H1199 M997 90V56L1020 33V0 M997 302V330L1025 358" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" fill="none" opacity=".85"/>
+  <circle cx="786" cy="172" r="6" fill="#22E1FF"/>
+  <circle cx="1165" cy="178" r="5" fill="#A78BFA"/>
+  <circle cx="1025" cy="358" r="5" fill="#22E1FF"/>
+
+  <!-- Glow halo + central chip -->
+  <rect x="919" y="118" width="156" height="156" rx="28" fill="#22E1FF" opacity=".12" filter="url(#glow)"/>
+  <rect x="922" y="121" width="150" height="150" rx="24" fill="#0D1830" stroke="url(#chip)" stroke-width="4"/>
+  <rect x="940" y="139" width="114" height="114" rx="14" fill="#132640" stroke="#659FCC" stroke-opacity=".38" stroke-width="2"/>
+  <path d="M962 211V175L975 188L997 164L1019 188L1032 175V211L997 234Z" fill="none" stroke="url(#chip)" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" filter="url(#softGlow)"/>
+  <path d="M937 135V103M967 121V93M997 121V92M1027 121V93M1057 135V103M937 258V289M967 271V300M997 271V300M1027 271V300M1057 258V289" stroke="#21D6F2" stroke-width="5" stroke-linecap="round"/>
+  <path d="M922 144H893M922 172H885M922 200H885M922 228H885M922 251H893M1072 144H1101M1072 172H1109M1072 200H1109M1072 228H1109M1072 251H1101" stroke="#AA8BFB" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="997" cy="196" r="3.5" fill="#E4FDFF"/>
+  <text x="1119" y="336" fill="#70829B" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="2">MF // 01</text>
+</svg>
